@@ -1,18 +1,18 @@
-## A Mini HTTP Server Written in C++
+# A Mini HTTP Server Written in C++
 A simple HTTP/1.1 web server written in C++ using Windows Socket API (Winsock). This project shows how a basic TCP server works under the hood.
 
-# H2 Features
+## Features
 1. Listens on port 8080
 2. Parses basic HTTP request lines
 3. Supports simple routing
 4. Serves static .html files
 
-# H2 Requirements
+## Requirements
 1. Windows OS
 2. MinGW (g++)
 3. Basic understanding of TCP/IP, HTTP and C++
 
-# H2 Working
+## Working
 1. Initialize winsock
    -> Calls WSAStartup() to enable networking
 2. Create a TCP Socket
